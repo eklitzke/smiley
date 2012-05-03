@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>eklitzke.org</title>
+    <style>
+      html { margin: 0; padding: 0; }
+      body { margin: 0; padding: 0; overflow: hidden; }
+      #smiley { width: 0; height: 0; margin: 0; padding: 0; }
+    </style>
+  </head>
+  <body id="body">
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+         id="smiley"
+         viewBox="-3000 -3000 6000 6000"
+         preserveAspectRatio="xMidYMid slice">
+      <g id="scale_group">
+        <circle id="face" cx="0" cy="0" r="45" fill="rgb(255,0,0)"
+                stroke="black" stroke-width="5" />
+        <g id="rotate_group">
+          <circle cx="-15" cy="-18" r="6" fill="black" />
+          <circle cx="15" cy="-18" r="6" fill="black" />
+          <path d="M-35,0 a35,35 0 1,0 70,0" stroke="black" fill="black" />
+        </g>
+      </g>
+    </svg>
+    <script src="smiley.js"></script>
+    <noscript>
+      JavaScript is required for the full eklitzke.org experience
+    </noscript>
+  </body>
+</html>
